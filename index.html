@@ -11,9 +11,11 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 
   <body>
+    
     <nav class="navbar navbar-expand-md navbar-light">
       <button
         class="navbar-toggler"
@@ -46,7 +48,8 @@
       </div>
     </nav>
     <section class="bg-primary text-light text-center py-5">
-      <img src="fish.png" alt="" />
+      <img src="fish.png" data-aos="zoom-out-right" alt="" />
+      <div data-aos="zoom-in-down"></div>
       <h1>Pescadería Don Jose</h1>
       <h4 class="px-3">&bull; TU TIENDA ONLINE &bull;</h4>
     </section>
@@ -125,5 +128,9 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
